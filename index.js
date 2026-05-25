@@ -103,7 +103,7 @@ const TOOLS = [
         change_id: {
           type: 'string',
           description: 'Standard change record number authorizing this action.',
-          example: 'CHG_STD_VPN_RESTART_001'
+          example: 'CHG0030004'
         }
       },
       required: ['action', 'gateway_id', 'change_id']
