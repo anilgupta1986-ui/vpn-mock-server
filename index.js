@@ -42,7 +42,7 @@ const GATEWAY = {
     ],
     recommended_action: 'restart_service', change_risk: 'low',
     standard_change_applicable: true,
-    standard_change_id: 'CHG_STD_VPN_RESTART_001',
+    standard_change_id: 'CHG0030004',
     estimated_recovery_minutes: 3
   },
   critical: {
