@@ -193,7 +193,7 @@ function handleMcpMessage(msg) {
   // Initialize handshake
   if (method === 'initialize') {
     return jsonRpcSuccess(id, {
-      protocolVersion: '2025-03-26',
+      protocolVersion: '2025-06-18',
       capabilities: { tools: { listChanged: false } },
       serverInfo: { name: 'vpn-gateway-mcp-server', version: '1.0.0' },
       instructions: 'VPN Gateway diagnostic and remediation tools for the APAC region. Always call vpn_gateway_status_check before vpn_gateway_remediate.'
